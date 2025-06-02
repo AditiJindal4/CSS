@@ -1,0 +1,141 @@
+.header
+{
+    display: flex;
+    height: 56px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-bottom: 0.8px black;
+    border-color: black;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(215, 215, 215);
+}
+.header-left
+{
+    display: flex;
+    align-items: center;
+}
+.menu
+{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo
+{
+    height: 21px;
+}
+.header-middle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    margin-left: 60px;
+}
+.search
+{
+    height: 37px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.077);
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    border-width: 0.8px;
+    border-color: rgb(197, 197, 197);
+    border-style: solid;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    flex:1;
+    max-width: 350px;
+    width: 0px;
+}
+::placeholder
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(137, 137, 137);
+}
+.search-button
+{
+    width:65px; 
+    height:40.5px; 
+    background-color: #F7F7F7;
+    border-width: 0.8px;
+    border-color: rgb(197, 197, 197);
+    border-style: solid;
+    border-left: none;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: 8px;
+    border-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.search-image
+{
+    width:24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.voice
+{
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    background-color: rgba(184, 184, 184, 0.122);
+}
+.header-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    margin-left: 29px;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+.upload
+{
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.apps
+{
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.notification
+{
+    height: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.logo
+{
+    height: 32px;
+}
+.menu:hover,.youtube-logo:hover,.search-button:hover,.voice:hover,.upload:hover,.apps:hover,.notification:hover,.logo:hover
+{
+    cursor: pointer;
+}
+.search-button:hover
+{
+    background-color: rgba(183, 183, 183, 0.227);
+}
