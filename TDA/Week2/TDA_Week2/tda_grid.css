@@ -1,0 +1,19 @@
+body
+{
+    margin: 0px;
+    margin-top: 20px;
+    font-family: arial;
+}
+section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+div
+{
+    height: 60px;
+    background-color: lightcoral;
+    text-align: center;
+    align-content: center;
+}
