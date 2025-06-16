@@ -1,0 +1,122 @@
+html 
+{
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
+body 
+{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(34, 40, 49);
+  color: rgb(238, 238, 238);
+  padding-top: 130px;
+}
+
+header 
+{
+  background-color: rgb(49, 54, 63);
+  padding: 24px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 
+{
+  margin: 0;
+  font-size: 40px;
+  color: rgb(118, 171, 174);
+}
+
+nav 
+{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+nav a 
+{
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+
+nav a:hover 
+{
+  color: rgb(118, 171, 174);
+}
+
+section 
+{
+  max-width: 900px;
+  margin: auto;
+  padding: 32px 16px;
+}
+
+h2 
+{
+  border-bottom: 2px solid rgb(118, 171, 174);
+  padding-bottom: 4.8px;
+  color: rgb(238, 238, 238);
+}
+
+.card 
+{
+  background-color: rgb(49, 54, 63);
+  margin: 16px 0;
+  padding: 16px 24px;
+  border-radius: 12px;
+}
+
+.card h3 
+{
+  margin-top: 0;
+  color: rgb(238, 238, 238);
+}
+
+.card p,ul 
+{
+  color: rgb(238, 238, 238);
+}
+
+footer 
+{
+  text-align: center;
+  background-color: rgb(49, 54, 63);
+  padding: 16px;
+  margin-top: 32px;
+  color: rgb(238, 238, 238);
+}
+
+a 
+{
+  color: rgb(118, 171, 174);
+}
+
+.projects
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 750px) 
+{
+  .projects
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) 
+{
+  .projects
+  {
+    grid-template-columns: 1fr;
+  }
+}
